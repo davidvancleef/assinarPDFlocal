@@ -14,5 +14,5 @@ python assinarpdf.py <arquivo.pdf> <x> <y> [pagina] [largura] [altura]
 ```
 
 
-Basta mudar o nome "contrato.pdf" para o nome do seu arquivo (no meu caso os arquivos estavam na mesma pasta do script, mas deve funcionar em arquivos em outros diretorios) e trocar os campos pelos respectivos valores. O "x" e "y" onde a assinatura será desenhada é obrigatório, e caso não hajam os argumentos 4, 5 e 6, eles assumirão os valores: 0 (primeira página), largura = 200 e altura = 100. 
+Basta mudar o nome "contrato.pdf" para o local/nome do seu arquivo e trocar os campos pelos respectivos valores. O "x" e "y" onde a assinatura será desenhada é obrigatório, e caso não hajam os argumentos 4, 5 e 6, eles assumirão os valores: 0 (primeira página), largura = 200 e altura = 100 (definido no código). 
 É possível com pouco esforço criar um .bat pra executar o script em todos os arquivos de uma pasta, caso queira.
