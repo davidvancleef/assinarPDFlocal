@@ -1,12 +1,12 @@
 # assinarPDFlocal
 Código multiplataforma em python para desenho de assinatura em PDFs.
+Precisei colocar uma assinatura em cerca de 9 PDFs para um projeto, então criei esse script pra fazer isso automaticamente.
 
 Bibliotecas necessárias:
 ```
 pip install reportlab PyPDF2
 ```
 
-Precisei colocar uma assinatura em cerca de 9 PDFs para um projeto, então criei esse script pra fazer isso automaticamente.
 O comando para uso é bem simples: 
 ```
 python assinar_pdf.py contrato.pdf x_da_assinatura y_da_assinatura numero_da_pagina largura_assinatura altura_assinatura
