@@ -41,9 +41,9 @@ def adicionar_imagem_pdf(
 if __name__ == "__main__":
     if len(sys.argv) < 4:
         print("Uso:")
-        print("  python assinar_pdf.py <pdf> <x> <y> [pagina] [largura] [altura]")
+        print("  python assinarpdf.py <pdf> <x> <y> [pagina] [largura] [altura]")
         print("Exemplo:")
-        print("  python assinar_pdf.py contrato.pdf 350 120")
+        print("  python assinarpdf.py contrato.pdf 350 120")
         sys.exit(1)
 
     pdf = sys.argv[1]
